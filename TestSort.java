@@ -30,13 +30,15 @@ public class TestSort {
 		list.add(1.1);
 		list.add(2.2);
 		list.add(-5);
+		System.out.print("排序前的列表: ");
 		for (int i = 0; i<list.size(); i++) {
-			System.out.print("排序前的列表: " + list.get(i) + "\t");
+			System.out.print(list.get(i) + "\t");
 		}
 		TestSort.sort(list);
 		System.out.println();
+		System.out.print("排序后的列表: " );
 		for (int i = 0; i<list.size(); i++) {
-			System.out.print("排序后的列表: " + list.get(i) + "\t");
+			System.out.print(list.get(i) + "\t");
 		}
 	}
 }
